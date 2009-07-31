@@ -1,4 +1,3 @@
-
 = Introduction =
 
 You can request to server using a Command.
@@ -54,4 +53,11 @@ Then, you can see like this.
 	Return Description    : See getDrawingList for the information on how this drawing should be drawn, and the documentation in ArDrawingData for that information means.
 
 ...
+}}}
+
+If you know a command name or id, you can get a command using getCommand().
+
+{{{
+Command command = client.getCommand("sonarCurrent");
+// Command command = client.getCommand(275);
 }}}
