@@ -35,6 +35,8 @@ if (!result) {
 }
 }}}
 
+[ReceiveData You can receive a response using DataPacketHandler]
+
 Another example, let's request *_gotoGoal_* command.
 
 {{{
