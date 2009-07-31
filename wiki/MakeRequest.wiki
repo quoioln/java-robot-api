@@ -34,3 +34,28 @@ if (!result) {
 	System.err.println("request failed");
 }
 }}}
+
+Another example, let's request *_gotoGoal_* command.
+
+{{{
+[342] gotoGoal
+	Group Name            : Navigation
+	Description           : sends the robot to the goal
+	Data Flag             : RETURN_NONE
+	Argument Description  : string: goal
+	Return Description    : none
+}}}
+
+This command require one argument that type is string, and there is no response.
+
+{{{
+Command command = client.getCommand("gotoGoal");
+ParameterBuilder builder = new ParameterBuilder();
+builder.appendString("Dock");
+Parameter param = builder.toParameter();
+boolean result = client.request(command, param);
+if (!result) {
+	client.disconnect();
+	System.err.println("request failed");
+}
+}}}
