@@ -6,7 +6,7 @@ You can request to !ArNetworking Server using [GetCommand Command].
 
 When you request to server, you must know that how to use a command. You can get usage information using Command.toString().
 
-For example, usage information about _update_ command is like this.
+For example, usage information about *_update_* command is like this.
 
 {{{
 [281] update
@@ -17,7 +17,7 @@ For example, usage information about _update_ command is like this.
 	Return Description    : string: status; string: mode; byte2: 10 * battery; byte4: x; byte4: y; byte2: th; byte2: transVel; byte2: rotVel, byte2: latVel, byte: temperature (deg c, -128 means unknown)
 }}}
 
-The _update_ command is:
+The *_update_* command is:
  * There is no arguments.
  * This command has only one response. (RETURN_SINGLE)
  * You can get return value from DataPacket:
