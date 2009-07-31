@@ -10,7 +10,7 @@ What commands the server provides? You can get server commands using getAllComma
 Command[] commands = client.getAllCommands();
 }}}
 
-You can see a command information using Command.toString().
+You can see a command information using Command.toString(). See a example.
 
 {{{
 package semix2.example.robot;
