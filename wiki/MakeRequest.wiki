@@ -50,9 +50,15 @@ This command require one argument that type is string, and there is no response.
 
 {{{
 Command command = client.getCommand("gotoGoal");
+
+// You can make arguments using ParameterBuilder
+// and call ParameterBuilder.toParameter(). 
+// This makes Parameter instance that is command's arguments.
+
 ParameterBuilder builder = new ParameterBuilder();
 builder.appendString("Dock");
 Parameter param = builder.toParameter();
+
 boolean result = client.request(command, param);
 if (!result) {
 	client.disconnect();
