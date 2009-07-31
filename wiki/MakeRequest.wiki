@@ -20,7 +20,7 @@ For example, usage information about *_update_* command is like this.
 The *_update_* command is:
  * There is no arguments.
  * This command has only one response. (RETURN_SINGLE)
- * You can get return value from DataPacket:
+ * You can get return value from [ReceiveData DataPacket]:
   * First string is robot's current status.
   * Second string is robot's current mode.
   * and so on...
