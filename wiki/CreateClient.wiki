@@ -4,7 +4,7 @@ You can connect !ArNetworking Server(ex. arnlServer) with a !RobotClient instanc
 
 = Details =
 
-Firstly, create a RobotClient instance.
+Firstly, create a !RobotClient instance.
 
 {{{
 RobotClient client = RobotClientFactory.newRobotClient();
@@ -19,4 +19,16 @@ client.setUser("semix2");
 client.setPassword("1234");
 client.setHost("192.16.1.11");
 client.setPort(7272);
+}}}
+
+Okey, now, you can connect to server using connect(). 
+
+{{{
+client.connect();
+}}}
+
+You can disconnect from server using disconnect().
+
+{{{
+client.disconnect();
 }}}
