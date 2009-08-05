@@ -387,7 +387,7 @@ public class RobotClientImpl implements RobotClient, DataPacketHandler {
 			} 
 		} else if (commandId == ServerCommandConstants.UDP_CONFIRMATION) {
 			if (state == State.CONNECTED) {
-				_logger.log(Level.WARNING, "Udp connection to server confirmed.");
+				_logger.log(Level.INFO, "Udp connection to server confirmed.");
 			} else {
 				_logger.log(Level.WARNING, "Udp Confirmation received when not in CONNECTED.");
 			}
