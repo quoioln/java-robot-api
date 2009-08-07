@@ -1,4 +1,4 @@
-package semix2.robot.impl;
+package semix2.impl.robot;
 
 public class ServerCommandConstants {
 	public static final int SHUTDOWN 					= 1; 	// Closes the connection.  

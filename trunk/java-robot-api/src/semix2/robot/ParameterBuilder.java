@@ -3,7 +3,7 @@ package semix2.robot;
 import java.util.ArrayList;
 import java.util.List;
 
-import semix2.robot.impl.ParameterImpl;
+import semix2.impl.robot.ParameterImpl;
 
 public class ParameterBuilder {
 	private final List<Byte>		_parameter;

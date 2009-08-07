@@ -1,4 +1,4 @@
-package semix2.robot.impl;
+package semix2.impl.robot;
 
 import java.io.IOException;
 import java.io.InputStream;

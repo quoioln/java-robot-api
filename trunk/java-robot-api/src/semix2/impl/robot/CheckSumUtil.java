@@ -1,4 +1,4 @@
-package semix2.robot.impl.util;
+package semix2.impl.robot;
 
 public class CheckSumUtil {
 

@@ -1,6 +1,6 @@
 package semix2.robot;
 
-import semix2.robot.impl.RobotClientImpl;
+import semix2.impl.robot.RobotClientImpl;
 
 public class RobotClientFactory {
 	

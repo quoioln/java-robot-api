@@ -1,11 +1,10 @@
-package semix2.robot.impl;
+package semix2.impl.robot;
 
 import java.util.Arrays;
 
 import semix2.robot.DataPacket;
 import semix2.robot.DataPacketIterator;
 import semix2.robot.Parameter;
-import semix2.robot.impl.util.CheckSumUtil;
 
 public class DataPacketImpl implements DataPacket {
 	private final byte[]			_packet;

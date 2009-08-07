@@ -1,4 +1,4 @@
-package semix2.robot.impl;
+package semix2.impl.robot;
 
 import java.io.IOException;
 import java.net.DatagramPacket;
@@ -9,7 +9,6 @@ import java.util.logging.Logger;
 
 import semix2.robot.DataPacket;
 import semix2.robot.DataPacketHandler;
-import semix2.robot.impl.util.CheckSumUtil;
 
 public class UDPPacketReader implements Runnable {
 	private final DatagramSocket			_socket;

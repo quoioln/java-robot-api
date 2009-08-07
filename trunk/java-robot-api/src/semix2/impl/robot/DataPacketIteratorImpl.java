@@ -1,4 +1,4 @@
-package semix2.robot.impl;
+package semix2.impl.robot;
 
 import semix2.robot.DataPacket;
 import semix2.robot.DataPacketIterator;
