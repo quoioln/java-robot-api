@@ -1,4 +1,4 @@
-package semix2.robot.impl;
+package semix2.impl.robot;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -7,7 +7,6 @@ import java.util.logging.Logger;
 
 import semix2.robot.DataPacket;
 import semix2.robot.DataPacketHandler;
-import semix2.robot.impl.util.CheckSumUtil;
 
 public class TCPPacketReader implements Runnable {
 	private final InputStream				_in;
